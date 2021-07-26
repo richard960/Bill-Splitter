@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightblue;
+}
+input{
+  height: 35px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: rgba(200, 227, 225, 0.756);
+  text-align: right;
+  width: 85%;
+
+}
+input:hover {
+  border: 1px solid rgb(52, 116, 52)
+}
+.inputs {
+  width: 50%;
+  align-self: center;
+}
+
+.leftside {
+  font-family: 'Source Code Pro', monospace;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#dollar {
+  font-size: 25px;
+  position: absolute;
+  left: 35px;
+  top: 40px;
+  color: rgba(130, 139, 140);
+}
+
+.tip-amount {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.calculator {
+  border-radius: 25px;
+  height: 60vh;
+  width: 780px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 0px 3px 2px rgb(165, 158, 158);
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100px;
+  width: 350px;
+  margin: 0px 0px 25px 0px;
+}
+.buttons button {
+  font-family: 'Source Code Pro', monospace;
+  border-radius: 5px;
+  color: white;
+  border: 0px;
+  background-color: rgb(25, 80, 79);
+  margin: 5px;
+  width: 98px;
+  max-height: 50px;
+}
+
+label {
+  position: relative;
+  align-self: flex-start;
+  left: 10px;
+}
+
+.rightside {
+  color: white;
+  max-width: 350px;
+  min-width: 350px;
+  font-size: 25px;
+  right: 15px;
+  position: relative;
+  align-self: center;
+  height: 85%;
+  background-color: rgb(25, 80, 79);
+  border-radius: 10px;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.buttons button:hover {
+  background-color: rgb(174, 235, 231);
+  color:rgb(25, 72, 71)
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+.tip-amount {
+  display: flex;
+  justify-content: space-between;
+}
+.results button {
+  position: relative;
+  min-height: 40px;
+  top: 30px;
+  width: 90%;
+  align-self: center;
+  border-radius: 5px;
+  border: 0px;
+  background-color: rgb(27, 105, 111);
+  color: rgb(27, 65, 51);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h6 {
+  color: rgb(1, 141, 143);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.rightside span {
+  color: rgb(29, 191, 175);
+  font-size: 40px;
+  font-weight: bold;
+}
+#billed {
+  padding-left: 115px;
+}
+
+.hidden {
+  margin-left: 52px;
+}
+
+label {
+  padding-left: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 5px;
+}
+
+img {
+  position: absolute;
+  left: 35px;
+  bottom: 5px;
+}
+
+.results button:hover {
+  background-color: rgb(72, 130, 135);
+  color: aliceblue;
+}
+
+.Title {
+  position: relative;
+  bottom: 40px;
+  text-align: center;
+  color: rgb(60, 83, 92);
+  font-size: 25px;
+  font-weight: bold;
+}
