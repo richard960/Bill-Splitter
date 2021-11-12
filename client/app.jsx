@@ -29,7 +29,6 @@ class App extends React.Component {
   }
 
   reset() {
-    console.log('hello')
     this.setState({
       tip: null,
       total: null,
